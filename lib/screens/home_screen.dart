@@ -10,6 +10,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     List<Song> songs = Song.songs;
     List<Playlist> playlists = Playlist.playlists;
+
     return Container(
       decoration: BoxDecoration(
         gradient: LinearGradient(
